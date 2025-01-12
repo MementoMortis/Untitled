@@ -276,8 +276,4 @@ local client = {
     end,
 }
 
-for x = 2, 97, 5 do
-    client:moveTo(x, 0)
-    sleep(2000)
-end
---return client
+return client
